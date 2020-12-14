@@ -43,7 +43,7 @@ class _SettingsOnePageState extends State<Boton2> {
           ),
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.shopping_basket),
+              icon: Icon(Icons.lightbulb_outline),
               onPressed: () {
                 setState(() {
                   _dark = !_dark;

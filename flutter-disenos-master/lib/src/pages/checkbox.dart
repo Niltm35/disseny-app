@@ -34,7 +34,7 @@ class PCheckboxListTile extends StatelessWidget {
               ? (selectedColor != null)
                   ? selectedColor
                   : Theme.of(context).primaryColor
-              : Colors.white,
+              : Colors.grey[700],
           child: value
               ? Icon(
                   Icons.check,
